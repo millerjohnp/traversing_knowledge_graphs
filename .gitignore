@@ -1,3 +1,7 @@
+# ignore data and param files
+data/*
+params/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
