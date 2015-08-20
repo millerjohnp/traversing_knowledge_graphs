@@ -12,23 +12,36 @@ If you use the dataset/code in your research, please cite the above paper.
 }
 
 # Data
+To automatically download the datasets used in our experiments, call the script ```get_datasets.sh.```
 
 data/
-    freebase/
-        train
-        dev
-        test
-    wordnet/
-        train
-        dev
-        test
+ -   freebase/
+      - train
+	  - dev
+	  - test
+ -  wordnet/
+	- train
+	- dev
+	- test
 
 data format:
-- Each line represents one (source, relation, target) triple. Elements of the
+- Each line represents one _(source, relation, target)_ triple. Elements of the
 triple are separated by tabs.
-- In addition to test, we also include test_induction and test_deduction. These
+- In addition to test, we also include **test_induction** and **test_deduction**. These
 correspond to the splits of the same name described in the paper.
 
+To automatically download our parameters, call the script ```get_parameters.sh.```
+
+params/
+ -   freebase/
+      - transE
+	  - bilinear_diag
+	  - bilinear
+ -  wordnet/
+	- train
+	- dev
+	- test
+ 
 params/
     freebase/
         transE
@@ -51,6 +64,6 @@ To run an experiment using the code, call
 
     python demo.py CONFIG DATAPATH
 
-'''CONFIG''' details the hyperparameters for the model and is defined in
-'''config.py.'''  '''DATAPATH''' specifies a path to one of the datasets in
-'''data''' or your own dataset.
+```CONFIG``` details the hyperparameters for the model and is defined in
+```config.py.```  ```DATAPATH``` specifies a path to one of the datasets in
+```data``` or your own dataset.
