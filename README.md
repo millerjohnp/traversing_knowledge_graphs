@@ -1,15 +1,17 @@
-Traversing Knowledge Graphs in Vector Space
-Kelvin Gu, John Miller, Percy Liang
-Conference on Empirical Methods in Natural Language Processing (EMNLP 2015)
+The repository contains the code, data, and parameters used in the following paper.
+
+Kelvin Guu, John Miller, Percy Liang.
+[Traversing Knowledge Graphs in Vector Space](http://arxiv.org/pdf/1506.01094.pdf)
+Empirical Methods in Natural Language Processing (EMNLP), 2015.
 
 If you use the dataset/code in your research, please cite the above paper.
 
-@article{gu2015traversing,
-  title={Traversing Knowledge Graphs in Vector Space},
-  author={Gu, Kelvin and Miller, John and Liang, Percy},
-  journal={arXiv preprint arXiv:1506.01094},
-  year={2015}
-}
+	@article{gu2015traversing,
+  	title={Traversing Knowledge Graphs in Vector Space},
+  	author={Gu, Kelvin and Miller, John and Liang, Percy},
+  	journal={arXiv preprint arXiv:1506.01094},
+  	year={2015}
+	}
 
 # Data
 To automatically download the datasets used in our experiments, call the script ```get_datasets.sh.```
@@ -42,16 +44,6 @@ params/
 	- dev
 	- test
  
-params/
-    freebase/
-        transE
-        bilinear_diag
-        bilinear
-    wordnet/
-        transE
-        bilinear_diag
-        bilinear
-
 params format:
 - Each file contains a pickled SparseVector object (pickled with cPickle).
 - COMP files contain parameters that have been trained on the compositional
@@ -60,10 +52,11 @@ params format:
 
 # Code
 
-To run an experiment using the code, call
+To run an experiment using our code, call
 
     python demo.py CONFIG DATAPATH
-
+ 
+from the code directory.
 ```CONFIG``` details the hyperparameters for the model and is defined in
 ```config.py.```  ```DATAPATH``` specifies a path to one of the datasets in
 ```data``` or your own dataset.
