@@ -12,6 +12,8 @@ If you use the dataset/code in your research, please cite the above paper.
   	journal={arXiv preprint arXiv:1506.01094},
   	year={2015}
 	}
+ 
+Reproducibility: A [Codalab](http://codalab.org) worksheet containing all of our experiments and several executable examples is available [here](https://www.codalab.org/worksheets/0xfcace41fdeec45f3bc6ddf31107b829f).
 
 # Data
 To automatically download the datasets used in our experiments, call the script ```get_datasets.sh.```
