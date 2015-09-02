@@ -6,11 +6,11 @@ Empirical Methods in Natural Language Processing (EMNLP), 2015.
 
 If you use the dataset/code in your research, please cite the above paper.
 
-	@article{gu2015traversing,
-  	title={Traversing Knowledge Graphs in Vector Space},
-  	author={Gu, Kelvin and Miller, John and Liang, Percy},
-  	journal={arXiv preprint arXiv:1506.01094},
-  	year={2015}
+	@inproceedings{gu2015traversing,
+  		author = {K. Guu and J. Miller and P. Liang},
+  		booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+  		title = {Traversing Knowledge Graphs in Vector Space},
+  		year = {2015},
 	}
  
 Reproducibility: A [Codalab](http://codalab.org) worksheet containing all of our experiments and several executable examples is available [here](https://www.codalab.org/worksheets/0xfcace41fdeec45f3bc6ddf31107b829f).
