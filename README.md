@@ -1,4 +1,4 @@
-The repository contains the code, data, and parameters used in the following paper.
+This repository contains the code, data, and parameters used in the following paper.
 
 Kelvin Guu, John Miller, Percy Liang.
 [Traversing Knowledge Graphs in Vector Space](http://arxiv.org/pdf/1506.01094.pdf)
